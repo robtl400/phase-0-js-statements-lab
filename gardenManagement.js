@@ -14,10 +14,10 @@ if (temperature > 80) {
 }
 
 if (timeOfDay === "morning") {
-    let lights = "Lights on";
+    let lights = "Lights off";
     console.log (lights)
 } else {
-    let lights = "Lights off";
+    let lights = "Lights on";
     console.log (lights)
 }
 
